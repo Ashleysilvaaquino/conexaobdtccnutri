@@ -1,12 +1,10 @@
-import './index.scss'
+import './cadastrar.scss'
 
 
-import lapis from './assets/lapis.png'
-import lixo from './assets/lixo.png'
 
-import adicionar from './assets/adicionar.png'
 
 export default function index(){
+
     return(
         <main class="tudo">
         
@@ -65,13 +63,11 @@ export default function index(){
                <button><a href="menu.html">Voltar</a></button>
                 </div>
                <div class="buttons">
-               <button><a href="#">Cadastrar</a></button>
+               <button><a href="./paginaADM/index.js">Cadastrar</a></button>
                 </div>
              </div>
 
-        </div>
-        
-    </main>
+           </main>
     );
 }
 

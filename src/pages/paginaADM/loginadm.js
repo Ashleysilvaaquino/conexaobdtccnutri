@@ -1,10 +1,10 @@
-import './index.scss'
+import './loginadm.scss'
 
 
-import lapis from './assets/lapis.png'
-import lixo from './assets/lixo.png'
+import lista from '../../assets/images/lista.png'
+import dieta from '../../assets/images/dieta-balanceada.png'
 
-import adicionar from './assets/adicionar.png'
+
 
 export default function index(){
     return(
@@ -22,14 +22,14 @@ export default function index(){
             <p>Login:</p>
             <div class="pl-login">
                 <input type="text"/>
-                <img src="../assets/images/lista.png" alt=""/>
+                    <img src={lista} alt=""/>
                 
             </div>
 
             <p>Senha:</p>    
             <div class="pl-senha">
                 <input type="password"/>
-                <img src="../assets/images/dieta-balanceada.png" alt=""/>
+                <img src={dieta} alt=""/>
 
             </div>
 

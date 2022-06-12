@@ -1,10 +1,8 @@
-import './index.scss'
+import './menu.scss'
 
 
-import lapis from './assets/lapis.png'
-import lixo from './assets/lixo.png'
-
-import adicionar from './assets/adicionar.png'
+import barras from '../../assets/images/tres_barrinha.png'
+import gerente from '../../assets/images/gerente.png'
 
 export default function index(){
     return(
@@ -12,12 +10,12 @@ export default function index(){
         <section>
             <header class="cabecalho">
                 <div class="c-direita">
-                    <img src="../assets/images/tres_barrinha.png" alt=""/>
+                    <img src={barras} alt=""/>
                     <h1>Área do Administrador: Menu </h1>
                 </div>
                 <div class="c-esquerda">
                     <h1>Gerente</h1>
-                    <img src="../assets/images/gerente.png" alt=""/> 
+                    <img src={gerente} alt=""/> 
                 </div>
             </header>
             <div class="corpo">

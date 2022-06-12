@@ -1,7 +1,7 @@
-import './index.scss'
+import './edicao.scss'
 
 
-import logo from './assets/logo.png'
+import logo from '../../assets/images/logo.png'
 
 
 export default  function index(){
@@ -40,7 +40,7 @@ export default  function index(){
         </div>
     </section>
     <div>
-        <a href="">Voltar a pagina home</a>
+        <a href="./">Voltar a pagina home</a>
     </div>
 
         </main>

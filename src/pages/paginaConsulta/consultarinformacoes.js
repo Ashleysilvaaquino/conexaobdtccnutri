@@ -1,9 +1,8 @@
-import './index.scss'
 
-import calendario from './assets/calendario.png'
-import lapis from './assets/lapis.png'
-import lixo from './assets/lixo.png'
-import logo from './assets/logo.png'
+import calendario from '../../assets/images/calendario.png'
+import lapis from '../../assets/images/lapis.png'
+import lixo from '../../assets/images/lixo.png'
+import logo from '../../assets/images/logo.png'
 
 export default  function index(){
     

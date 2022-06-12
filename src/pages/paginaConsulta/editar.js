@@ -1,10 +1,9 @@
-import './index.scss'
+import './editar.scss'
 
 
-import lapis from './assets/lapis.png'
-import lixo from './assets/lixo.png'
-
-import adicionar from './assets/adicionar.png'
+import lapis from '../../assets/images/lapis.png'
+import lixo from '../../assets/images/lixo.png'
+import adicionar from '../../assets/images/adicionar.png'
 
 export default function index(){
     

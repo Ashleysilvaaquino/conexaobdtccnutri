@@ -1,31 +1,28 @@
 import './index.scss'
 
 
-import objetivos from './assets/images/objetivos.png'
-import nutricionista from './assets/images/nutricionista.png'
-import logo from './assets/images/logo.png'
-import balao from './assets/images/bolha-de-fala.png'
-import mulher from './assets/images/mulher.png'
-import tatum from './assets/images/jayson-tatum.png'
-import chef from './assets/images/chef.png'
-import povo from './assets/images/povo.png'
-import cesta from './assets/images/cesta-frutas.png'
-import laranjas from './assets/images/frutas-citricas.png'
-import frango from './assets/images/frango.png'
-import piramide from './assets/images/piramide.png'
-import balanca from './assets/images/balanca.png'
-import maca from './assets/images/maca.png'
-import doutor from './assets/images/doutor.png'
-import verificado from './assets/images/verificado.png'
-import instagram from './assets/images/insta.png'
-import link from './assets/images/link.png'
-import facebook from './assets/images/fb.png'
-import gmail from './assets/images/gmail.png'
-import wpp from './assets/images/bolha-de-bate-papo.png'
-import mapa from './assets/images/mapa.png'
+import objetivos from '../../assets/images/objetivo.png'
+import nutricionista from '../../assets/images/nutricionista.png'
+import logo from '../../assets/images/logo.png'
+import balao from '../../assets/images/balao-de-fala.png'
+import mulher from '../../assets/images/mulher.png'
+import tatum from '../../assets/images/jayson-tatum.png'
+import chef from '../../assets/images/chef.png'
+import povo from '../../assets/images/povo.png'
+import cesta from '../../assets/images/cesta-frutas.png'
+import laranjas from '../../assets/images/frutas-citricas.png'
+import frango from '../../assets/images/frango.png'
+import doutor from '../../assets/images/doutor.png'
+import verificado from '../../assets/images/verificado.png'
+import instagram from '../../assets/images/insta.png'
+import link from '../../assets/images/link.png'
+import facebook from '../../assets/images/fb.png'
+import gmail from '../../assets/images/gmail.png'
+import wpp from '../../assets/images/bolha-de-bate-papo.png'
+import mapa from '../../assets/images/mapa.png'
 
 
-import adicionar from './assets/adicionar.png'
+
 
 export default function index() {
 
@@ -35,7 +32,7 @@ export default function index() {
                 <nav>
                     <div class="barra-sup">
                         <div class="bs-logo">
-                            <img src="" alt="" />
+                            <img src={nutricionista} alt="" />
                             <p>MEIRELLES</p>
                         </div>
                         <div class="bs-div">
@@ -97,7 +94,7 @@ export default function index() {
                 <div class="f7-jt">
 
                     <div class="faixinhas">
-                        <img class="img-atleta" src="../assets/images/esportivo.png" alt="" />
+                        <img class="img-atleta" src={tatum} alt="" />
 
                         <div class="textos-f7">
                             <h2>Esportiva</h2>
@@ -106,7 +103,7 @@ export default function index() {
                     </div>
 
                     <div class="faixinhas">
-                        <img class="img-povo" src="../assets/images/clinica.png" alt="" />
+                        <img class="img-povo" src={povo} alt="" />
                         <div class="textos-f7">
                             <h2>Clinica</h2>
                             <p>A nutrição clínica trata-se o organismo como um todo e não apenas tenta-se combater uma doença</p>
@@ -114,7 +111,7 @@ export default function index() {
                     </div>
 
                     <div class="faixinhas">
-                        <img class="img-chef" src="../assets/images/chef.png" alt="" />
+                        <img class="img-chef" src={chef} alt="" />
                         <div class="textos-f7">
 
 
@@ -132,15 +129,15 @@ export default function index() {
                 <div class="cartoes">
                     <div class="f7-cartao" >
 
-                        <img class="img1" src="../assets/images/uvinha.png" alt=" " />
+                        <img class="img1" src={cesta} alt=" " />
                         <p class="p1">A dieta DASH tem foco no emagrecimento e tem como principal meta reduzir e controlar a pressão arterial.</p>
                     </div>
                     <div class="f7-cartao">
-                        <img class="img2" src="../assets/images/frutas.jpg" alt="" />
+                        <img class="img2" src={laranjas} alt="" />
                         <p class="p2">O método Low Carb tem como premissa a redução de carboidrato e propõe a redução, não a ausência do nutriente.</p>
                     </div>
                     <div class="f7-cartao">
-                        <img class="img3" src="../assets/images/franguinho.png" alt="" />
+                        <img class="img3" src={frango} alt="" />
                         <p class="p3"> Na Paleolítica, o cardápio segue a mesma proposta dos tempos das cavernas : carne de caça, pesca, frutas e vegetais.</p>
                     </div>
 
@@ -149,13 +146,13 @@ export default function index() {
             </section>
             <section class="faixa-8">
                 <div class="f8-pt1">
-                    <img src="../assets/images/privacidade.png" alt="" />
+                    <img src={doutor} alt="" />
                     <div class="f8-pt1-txt">
                         <h1>TRABALHAMOS COM CONSULTORIA ÚNICA</h1>
                         <p> O que é consultoria única?</p>
                     </div>
                     <div class="f8-pt1-img">
-                        <img src="../assets/images/verificado.png" alt="" />
+                        <img src={verificado} alt="" />
                     </div>
                 </div>
                 <div class="f8-txt">
@@ -169,27 +166,27 @@ export default function index() {
                     <div class="rodape-redes">
                         <h1>Entre em contato conosco, e não fique com dúvidas!</h1>
                         <div class="elemento">
-                            <img src="../assets/images/insta.png" alt="" />
+                            <img src={instagram} alt="" />
                             <h1>@sheilanutricionis_oficial
                             </h1>
                         </div>
                         <div class="elemento">
-                            <img src="../assets/images/link.png" alt="" />
+                            <img src={link} alt="" />
                             <h1>sheilanutricionista
                             </h1>
 
                         </div>
                         <div class="elemento">
-                            <img src="../assets/images/fb.png" alt="" />
+                            <img src={facebook} alt="" />
                             <h1>Sheila Nutricionista</h1>
                         </div>
                         <div class="elemento">
-                            <img src="../assets/images/gmail.png" alt="" />
+                            <img src={gmail} alt="" />
                             <h1>Email : sheila@gmai.com
                             </h1>
                         </div>
                         <div class="elemento">
-                            <img src="../assets/images/bolha-de-bate-papo.png" alt="" />
+                            <img src={wpp} alt="" />
                             <h1>Telefone : 11 9999-8888</h1>
                         </div>
                     </div>
@@ -206,10 +203,10 @@ export default function index() {
                     <div class="mapinha">
                         <div class="elemento-m">
                             <h1>SHEILA - CONSULTÓRIO NUTRICIONISTA</h1>
-                            <img src="../assets/images/logo.png" alt="" />
+                            <img src={logo} alt="" />
                         </div>
                         <div class="mapa">
-                            <img src="../assets/images/meireles.png" alt="" />
+                            <img src={mapa} alt="" />
                         </div>
                     </div>
                     
