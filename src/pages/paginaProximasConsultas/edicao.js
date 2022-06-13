@@ -8,23 +8,23 @@ export default  function index(){
     
     return(
         <main className='pagina-3'>
-            <div class="cabeçalho-consultar">
-        <img class="logo1" src={logo} alt=""/>
+            <div className="cabeçalho-consultar">
+        <img className="logo1" src={logo} alt=""/>
         <h1>CONSULTAR INFORMAÇÕES SOBRE CLIENTES</h1>
     </div>
     <br/>
-    <section class="titulo">
-        <div class="titulo">
+    <section className="titulo">
+        <div className="titulo">
             <h2>Próxima consultas: </h2>
            
         </div>
     </section>
-    <section class="cartoes">
-        <div class="parte-de-cima">
+    <section className="cartoes">
+        <div className="parte-de-cima">
             <p>Mateus Fernandes</p>
             <p>Consulta dia 13/05</p>
         </div>
-        <div class="parte-de-baixo">
+        <div className="parte-de-baixo">
             <ul>
             <li>Idade: 25 anos</li><br/>
             <li>Tipo de Dieta: Paleolitica</li><br/>
@@ -33,7 +33,7 @@ export default  function index(){
             </ul>
         </div>
     </section>
-    <section class="anotacoes">
+    <section className="anotacoes">
         <div>
             <h2>Anotações:</h2>
             <input type="text"/>

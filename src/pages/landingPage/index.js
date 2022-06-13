@@ -30,54 +30,54 @@ export default function index() {
         <main className="pagina-total">
             <header>
                 <nav>
-                    <div class="barra-sup">
-                        <div class="bs-logo">
+                    <div className="barra-sup">
+                        <div className="bs-logo">
                             <img src={nutricionista} alt="" />
                             <p>MEIRELLES</p>
                         </div>
-                        <div class="bs-div">
-                            <a href="pgadm.html">ÁREA ADMINISATRATIVA</a>
+                        <div className="bs-div">
+                            <a href="pgadm.html">ÁREA ADMINISTRATIVA</a>
                         </div>
                     </div>
                 </nav>
             </header>
-            <section class="faixa-1">
-                <div class="f1-textos">
+            <section className="faixa-1">
+                <div className="f1-textos">
                     <h1>O que é ser um nutricionista?</h1>
                     <img src={logo} alt="" />
                 </div>
                 <h2>O nutricionista é um profissional que <br /> trabalha na área da saúde humana, <br /> agindo na prevenção, promoção e meios <br /> de recuperar a saúde, por meio <br /> de dietas e rotinas de exercício de acordo <br /> com o perfil de cada pessoa.</h2>
             </section>
-            <section class="faixa-2">
-                <div class="f2-textos">
+            <section className="faixa-2">
+                <div className="f2-textos">
                     <h1>QUEM É A SHEILA MEIRELLES</h1>
                 </div>
                 <h2>Sheila Meirelles é uma jovem com seus 23 anos de idade, formada <br /> em nutricionismo e pós-graduada na área. A Dr. Meirelles já <br /> trabalhou em diversas clínicas, possuindo vários clientes, porém, agora <br /> está trabalhando de maneira autônoma, ajudando <br /> as pessoas a atingirem seus objetivos de maneira saudável, <br /> sempre realizando atendimentos individuais e especiais <br /> para cada paciente. Confira ao longo do site todos os seus serviços, <br /> que são prestados com muita dedicação e empenho.</h2>
 
             </section>
-            <section class="faixa-3">
+            <section className="faixa-3">
                 <img src={objetivos} alt="" />
-                <div class="f3-fundo">
-                    <div class="f3-textos">
+                <div className="f3-fundo">
+                    <div className="f3-textos">
                         <h1>Objetivos de Sheila em sua carreira:</h1>
                         <p>Um dos seus objetivos é crescer como pessoa, fazendo o que ama, que é ajudar seus <br /> pacientes criando cardápios adequados ( do ponto <br /> de vista nutricional ) a cada um deles. E fazer com <br /> que sua empresa cresça, assim, expandindo seu negócio cada vez mais.</p>
                     </div>
                 </div>
             </section>
-            <section class="faixa-5">
-                <div class="f5-tt">
+            <section className="faixa-5">
+                <div className="f5-tt">
                     <h1>Relatos de pacientes</h1>
                     <img src={balao} alt="" />
                 </div>
-                <div class="f5-texto">
-                    <div class="f5-cartao">
+                <div className="f5-texto">
+                    <div className="f5-cartao">
                         <img src={mulher} alt="" />
                         <h1>BEATRIZ ROCHA COMENTOU:</h1>
                     </div>
                     <p>"Sheila, gostaria de te parabenizar e te agradecer também! Já havia escutado sobre o método Low Carb, mas somente fui compreendê-lo quando comecei a te acompanhar. Já emagreci 10Kg somente seguindo suas dicas, e sem fazer exercícios físicos. Obrigada por estar me ajudando, e por ajudar tantas pessoas!"</p>
                 </div>
-                <div class="f5-texto">
-                    <div class="f5-cartao">
+                <div className="f5-texto">
+                    <div className="f5-cartao">
                         <img src={mulher} alt="" />
                         <h1>CAROL MENDES COMENTOU:</h1>
                     </div>
@@ -85,34 +85,34 @@ export default function index() {
                     </p>
                 </div>
             </section>
-            <section class="f-7">
+            <section className="f-7">
 
-                <div class="titulo-f7">
+                <div className="titulo-f7">
                     <h1>Serviços oferecidos:</h1>
                 </div>
 
-                <div class="f7-jt">
+                <div className="f7-jt">
 
-                    <div class="faixinhas">
-                        <img class="img-atleta" src={tatum} alt="" />
+                    <div className="faixinhas">
+                        <img className="img-atleta" src={tatum} alt="" />
 
-                        <div class="textos-f7">
+                        <div className="textos-f7">
                             <h2>Esportiva</h2>
                             <p>A nutrição esportiva tem como função proteger a saúde de quem pratica a atividade física nesses momentos. Durante a fase de treinos, o atleta precisa seguir um plano alimentar que forneça energia necessária para o esforço envolvido.</p>
                         </div>
                     </div>
 
-                    <div class="faixinhas">
-                        <img class="img-povo" src={povo} alt="" />
-                        <div class="textos-f7">
+                    <div className="faixinhas">
+                        <img className="img-povo" src={povo} alt="" />
+                        <div className="textos-f7">
                             <h2>Clinica</h2>
                             <p>A nutrição clínica trata-se o organismo como um todo e não apenas tenta-se combater uma doença</p>
                         </div>
                     </div>
 
-                    <div class="faixinhas">
-                        <img class="img-chef" src={chef} alt="" />
-                        <div class="textos-f7">
+                    <div className="faixinhas">
+                        <img className="img-chef" src={chef} alt="" />
+                        <div className="textos-f7">
 
 
                             <h2>Gastronomica</h2>
@@ -122,76 +122,76 @@ export default function index() {
                 </div>
 
             </section>
-            <section class="faixa-7">
+            <section className="faixa-7">
                 <div>
-                    <h1 class="tipos">TIPOS DE DIETAS FORNECIDOS:</h1>
+                    <h1 className="tipos">TIPOS DE DIETAS FORNECIDOS:</h1>
                 </div>
-                <div class="cartoes">
-                    <div class="f7-cartao" >
+                <div className="cartoes">
+                    <div className="f7-cartao" >
 
-                        <img class="img1" src={cesta} alt=" " />
-                        <p class="p1">A dieta DASH tem foco no emagrecimento e tem como principal meta reduzir e controlar a pressão arterial.</p>
+                        <img className="img1" src={cesta} alt=" " />
+                        <p className="p1">A dieta DASH tem foco no emagrecimento e tem como principal meta reduzir e controlar a pressão arterial.</p>
                     </div>
-                    <div class="f7-cartao">
-                        <img class="img2" src={laranjas} alt="" />
-                        <p class="p2">O método Low Carb tem como premissa a redução de carboidrato e propõe a redução, não a ausência do nutriente.</p>
+                    <div className="f7-cartao">
+                        <img className="img2" src={laranjas} alt="" />
+                        <p className="p2">O método Low Carb tem como premissa a redução de carboidrato e propõe a redução, não a ausência do nutriente.</p>
                     </div>
-                    <div class="f7-cartao">
-                        <img class="img3" src={frango} alt="" />
-                        <p class="p3"> Na Paleolítica, o cardápio segue a mesma proposta dos tempos das cavernas : carne de caça, pesca, frutas e vegetais.</p>
+                    <div className="f7-cartao">
+                        <img className="img3" src={frango} alt="" />
+                        <p className="p3"> Na Paleolítica, o cardápio segue a mesma proposta dos tempos das cavernas : carne de caça, pesca, frutas e vegetais.</p>
                     </div>
 
                 </div>
 
             </section>
-            <section class="faixa-8">
-                <div class="f8-pt1">
+            <section className="faixa-8">
+                <div className="f8-pt1">
                     <img src={doutor} alt="" />
-                    <div class="f8-pt1-txt">
+                    <div className="f8-pt1-txt">
                         <h1>TRABALHAMOS COM CONSULTORIA ÚNICA</h1>
                         <p> O que é consultoria única?</p>
                     </div>
-                    <div class="f8-pt1-img">
+                    <div className="f8-pt1-img">
                         <img src={verificado} alt="" />
                     </div>
                 </div>
-                <div class="f8-txt">
+                <div className="f8-txt">
                     <p>Todo paciente tem um tratamento diferenciado e preparado diretamente para ele(a), com <br /> gostos alimentares, diferentes tipos de dietas e até os treinos! A consulta é dedicada para cada <br /> um dos clientes individualmente e cada cardapio é adaptado para cada paciente.</p>
                 </div>
             </section>
 
 
-            <section class="rodape">
-                <div class="rodape-pt1">
-                    <div class="rodape-redes">
+            <section className="rodape">
+                <div className="rodape-pt1">
+                    <div className="rodape-redes">
                         <h1>Entre em contato conosco, e não fique com dúvidas!</h1>
-                        <div class="elemento">
+                        <div className="elemento">
                             <img src={instagram} alt="" />
                             <h1>@sheilanutricionis_oficial
                             </h1>
                         </div>
-                        <div class="elemento">
+                        <div className="elemento">
                             <img src={link} alt="" />
                             <h1>sheilanutricionista
                             </h1>
 
                         </div>
-                        <div class="elemento">
+                        <div className="elemento">
                             <img src={facebook} alt="" />
                             <h1>Sheila Nutricionista</h1>
                         </div>
-                        <div class="elemento">
+                        <div className="elemento">
                             <img src={gmail} alt="" />
                             <h1>Email : sheila@gmai.com
                             </h1>
                         </div>
-                        <div class="elemento">
+                        <div className="elemento">
                             <img src={wpp} alt="" />
                             <h1>Telefone : 11 9999-8888</h1>
                         </div>
                     </div>
                     <hr />
-                    <div class="rodape-valores">
+                    <div className="rodape-valores">
                         <h1>MISSÃO:</h1>
                         <p>Prestar serviços de saúde utilizando o nutricionismo como base. Criar rotinas,exercícios e dietas para cada cliente individualmente de forma saudável.</p>
 
@@ -200,18 +200,18 @@ export default function index() {
 
                     </div>
                     <hr />
-                    <div class="mapinha">
-                        <div class="elemento-m">
+                    <div className="mapinha">
+                        <div className="elemento-m">
                             <h1>SHEILA - CONSULTÓRIO NUTRICIONISTA</h1>
                             <img src={logo} alt="" />
                         </div>
-                        <div class="mapa">
+                        <div className="mapa">
                             <img src={mapa} alt="" />
                         </div>
                     </div>
                     
-                    <hr class="horizontal" />
-                    <div class="rodape-pt2">
+                    <hr className="horizontal" />
+                    <div className="rodape-pt2">
                         <h1>MEIRELES NUTRICIONISTA</h1>
                     </div>
                 </div>

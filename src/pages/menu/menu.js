@@ -8,27 +8,27 @@ export default function index(){
     return(
         <main>
         <section>
-            <header class="cabecalho">
-                <div class="c-direita">
+            <header className="cabecalho">
+                <div className="c-direita">
                     <img src={barras} alt=""/>
                     <h1>Área do Administrador: Menu </h1>
                 </div>
-                <div class="c-esquerda">
+                <div className="c-esquerda">
                     <h1>Gerente</h1>
                     <img src={gerente} alt=""/> 
                 </div>
             </header>
-            <div class="corpo">
-                <div class="fx-esquerda">
+            <div className="corpo">
+                <div className="fx-esquerda">
                     <div>
                        <a href="cadastro.html"><h1>NOVA CONSULTA</h1></a> 
                        <a href="proximas.html"><h1>PRÓXIMAS CONSULTAS</h1></a> 
                       <a href="consultasr.html"><h1>CONSULTAS REALIZADAS</h1></a>  
                     </div>
-                        <a class="botao" href="pgadm.html">Voltar</a>
+                        <a className="botao" href="pgadm.html">Voltar</a>
                 </div>
 
-                <div class="consultas">
+                <div className="consultas">
                     <h1>CONSULTAS DE HOJE:</h1>
                     <p>--- Antonio Nunes / 9:30</p>
 

@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import { BrowserRouter, Routers, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 import Pagina1 from './pages/landingpage/index.js'
@@ -17,7 +17,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Routers>
+      <Routes>
         <Route path = '/pagina-1' element ={<Pagina1/>}/>
         <Route path = '/pagina-2' element ={<Pagina2/>}/>
         <Route path = '/pagina-3' element ={<Pagina3/>}/>
@@ -25,7 +25,7 @@ root.render(
         <Route path = '/pagina-5' element ={<Pagina5/>}/>
         <Route path = '/pagina-6' element ={<Pagina6/>}/>
         <Route path = '/pagina-7' element ={<Pagina7/>}/>
-      </Routers>
+      </Routes>
     </BrowserRouter>
   </React.StrictMode>
 );

@@ -6,33 +6,33 @@ import './cadastrar.scss'
 export default function index(){
 
     return(
-        <main class="tudo">
+        <main className="tudo">
         
-            <div class="titulo">
+            <div className="titulo">
                 <h3>CADASTRO:</h3>
             </div>
-         <div class="container2">
-            <div class="form1">
+         <div className="container2">
+            <div className="form1">
                 <label>Nome:</label>
                 <input type="text"/>
             </div>
             
             
             
-            <div class="form">
+            <div className="form">
                 <label>CPF:</label>
                 <input type="number"/>
                 
             </div>
-            <div class="form">
+            <div className="form">
                 <label>Data de nascimento:</label>
                 <input type="number"/>
             </div>
-            <div class="form1">
+            <div className="form1">
                 <label>Endereço de email:</label>
                 <input type="text"/>
             </div>
-            <div class="mudar">
+            <div className="mudar">
 
                 <p>Sexo:</p>
                 <label>M</label>
@@ -41,28 +41,28 @@ export default function index(){
                 <input type="radio"/>
 
             </div>
-            <div class="form">
+            <div className="form">
                 <label>CEP:</label>
                 <input type="number"/>
             </div>
-            <div class="form2">
+            <div className="form2">
                 <label>Assunto:</label>
                 <input type="text"/>
               </div>
-              <div class="form">
+              <div className="form">
                  <label>Data da Consulta:</label>
                  <input type="number"/>
                </div>
-              <div class="form">
+              <div className="form">
                 <label>Horário marcado:</label>
                 <input type="number"/>
                </div>
               </div>
-              <div class="botões">
-                <div class="buttons">
+              <div className="botões">
+                <div className="buttons">
                <button><a href="menu.html">Voltar</a></button>
                 </div>
-               <div class="buttons">
+               <div className="buttons">
                <button><a href="./paginaADM/index.js">Cadastrar</a></button>
                 </div>
              </div>
