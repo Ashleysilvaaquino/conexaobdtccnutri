@@ -6,7 +6,7 @@ import gerente from '../../assets/images/gerente.png'
 
 export default function index(){
     return(
-        <main>
+        <main className="pagina-menu">
         <section>
             <header className="cabecalho">
                 <div className="c-direita">

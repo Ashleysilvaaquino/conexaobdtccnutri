@@ -7,7 +7,7 @@ import logo from '../../assets/images/logo.png'
 export default  function index(){
     
     return(
-        <main className='pagina-3'>
+        <main className='pagina-edicao'>
             <div className="cabeçalho-consultar">
         <img className="logo1" src={logo} alt=""/>
         <h1>CONSULTAR INFORMAÇÕES SOBRE CLIENTES</h1>

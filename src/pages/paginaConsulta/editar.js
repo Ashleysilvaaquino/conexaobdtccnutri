@@ -8,7 +8,7 @@ import adicionar from '../../assets/images/adicionar.png'
 export default function index(){
     
     return(
-        <main className='pagina-2'>
+        <main className='pagina-editar'>
             <div className="cabecalho-consultar">
         <h1>CONSULTAR INFORMAÇÕES SOBRE CLIENTES</h1>
     </div>

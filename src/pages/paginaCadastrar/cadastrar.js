@@ -6,7 +6,7 @@ import './cadastrar.scss'
 export default function index(){
 
     return(
-        <main className="tudo">
+        <main className="pagina-cadastrar">
         
             <div className="titulo">
                 <h3>CADASTRO:</h3>

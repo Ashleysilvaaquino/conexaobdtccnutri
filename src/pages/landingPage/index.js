@@ -30,7 +30,7 @@ import balanca from '../../assets/images/balanca.png'
 export default function index() {
 
     return (
-        <main className="pagina-total">
+        <main className="pagina-1">
             <header>
                 <nav>
                     <div className="barra-sup">

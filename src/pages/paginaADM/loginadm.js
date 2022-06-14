@@ -8,7 +8,7 @@ import dieta from '../../assets/images/dieta-balanceada.png'
 
 export default function index(){
     return(
-        <main>
+        <main className='pagina-adm'>
         <section className="pg-login">
             <div className="pl-tt">
                 <h1>BEM-VINDO(A) A ÁREA DO ADMINISTRADOR</h1>
