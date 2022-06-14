@@ -163,51 +163,51 @@ export default function index() {
                 </div>
             </section>
             <section>
-        <div class="faixona">
+        <div className="faixona">
 
-            <div class="balao1">
-                <div class="f1">
-                    <div class="titulo">
+            <div className="balao1">
+                <div className="f1">
+                    <div className="titulo">
                         <h1>PLANO SIMPLES</h1>
-                        <p class="para">1 consulta + 1 retorno = 200R$</p>
+                        <p className="para">1 consulta + 1 retorno = 200R$</p>
                     </div>
-                    <div class="texto">
-                        <p class="para">Faça uma consulta completa e tenha o prazo de 6 meses para voltar para um checkup!</p>
+                    <div className="texto">
+                        <p className="para">Faça uma consulta completa e tenha o prazo de 6 meses para voltar para um checkup!</p>
                     </div>
                 </div>
                 <div>
-                    <img class="img1" src="../assets/images/piramide 1.png" alt="">
+                        <img className="img1" src={piramide} alt=""/>
                 </div>
             </div>
 
-            <div class="balao2">
-                <div class="img2">
-                    <img src="../assets/images/Rectangle 104.png">
+            <div className="balao2">
+                <div className="img2">
+                    <img src={balanca} alt=""/>
                 </div>
-                <div class="f2">
+                <div className="f2">
                     <div>
                         <h1> PLANO COMPOSTO</h1>
-                        <p class="para"> 1 Consulta + 5 retorno = 750R$</p>
+                        <p className="para"> 1 Consulta + 5 retorno = 750R$</p>
                     </div>
                     <div>
-                        <p class="para">Faça uma consulta completa e tenha o prazo de 1 ano para retornar e fazer até 5 checkups!
+                        <p className="para">Faça uma consulta completa e tenha o prazo de 1 ano para retornar e fazer até 5 checkups!
                         </p>
                     </div>
                 </div>
             </div>
 
-            <div class="balao3">
-                <div class="f3">
+            <div className="balao3">
+                <div className="f3">
                     <div>
                         <h1> CONSULTA SIMPLES</h1>
-                        <p class="para"> 1 Consulta = 150R$</p>
+                        <p className="para"> 1 Consulta = 150R$</p>
                         <div>
-                            <p class="para"> Faça uma consulta e receba seu diagnóstico!</p>
+                            <p className="para"> Faça uma consulta e receba seu diagnóstico!</p>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <img class="img3" src="../assets/images/maça 1.png">
+                    <img className="img3" src={maca} alt=""/>
                 </div>
             </div>
 

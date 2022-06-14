@@ -351,7 +351,68 @@
             font-size: 22px;
             padding-left: 20px;
         }
-    
+        .faixa-precos{
+            background-color: #F2F8ED;
+        }
+        
+        .fp-f1{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin: 0px -10px;
+        }
+        
+        .fp1-plano-simples{
+            background-color: rgba(234, 144, 144, 0.6);
+            border-radius: 40px;
+            padding: 10px 200px;
+            margin: 40px;
+        }
+        
+        .piramide-img{
+            margin: 50px;
+        }
+        
+        .fp-f2{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        
+        .fp-plano-composto{
+            background-color: rgba(234, 145, 145, 0.6);
+            border-radius: 40px;
+            padding: 20px 200px;
+            margin: 40px;
+        }
+        
+        .balanca-img{
+            margin: 50px;
+        }
+        
+        .fp-consulta-simples{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .fp-f3{
+            background-color: rgba(234, 145, 145, 0.6);
+            border-radius: 40px;
+            padding: 20px 340px;
+            margin: 40px;
+            
+        }
+        
+        .maca-img{
+            margin: 50px;
+        }
+        
+        .para{
+            font-family: "open-sans";
+        }
+        .faixa-precos > h1 {
+                font-family: "louis viton";
+        }
     
     .faixa-8{
         display: flex;
