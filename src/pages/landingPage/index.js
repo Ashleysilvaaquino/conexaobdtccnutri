@@ -20,6 +20,9 @@ import facebook from '../../assets/images/fb.png'
 import gmail from '../../assets/images/gmail.png'
 import wpp from '../../assets/images/bolha-de-bate-papo.png'
 import mapa from '../../assets/images/mapa.png'
+import maca from '../../assets/images/maça.png'
+import piramide from '../../assets/images/piramide.png'
+import balanca from '../../assets/images/balanca.png'
 
 
 
@@ -159,7 +162,58 @@ export default function index() {
                     <p>Todo paciente tem um tratamento diferenciado e preparado diretamente para ele(a), com <br /> gostos alimentares, diferentes tipos de dietas e até os treinos! A consulta é dedicada para cada <br /> um dos clientes individualmente e cada cardapio é adaptado para cada paciente.</p>
                 </div>
             </section>
+            <section>
+        <div class="faixona">
 
+            <div class="balao1">
+                <div class="f1">
+                    <div class="titulo">
+                        <h1>PLANO SIMPLES</h1>
+                        <p class="para">1 consulta + 1 retorno = 200R$</p>
+                    </div>
+                    <div class="texto">
+                        <p class="para">Faça uma consulta completa e tenha o prazo de 6 meses para voltar para um checkup!</p>
+                    </div>
+                </div>
+                <div>
+                    <img class="img1" src="../assets/images/piramide 1.png" alt="">
+                </div>
+            </div>
+
+            <div class="balao2">
+                <div class="img2">
+                    <img src="../assets/images/Rectangle 104.png">
+                </div>
+                <div class="f2">
+                    <div>
+                        <h1> PLANO COMPOSTO</h1>
+                        <p class="para"> 1 Consulta + 5 retorno = 750R$</p>
+                    </div>
+                    <div>
+                        <p class="para">Faça uma consulta completa e tenha o prazo de 1 ano para retornar e fazer até 5 checkups!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="balao3">
+                <div class="f3">
+                    <div>
+                        <h1> CONSULTA SIMPLES</h1>
+                        <p class="para"> 1 Consulta = 150R$</p>
+                        <div>
+                            <p class="para"> Faça uma consulta e receba seu diagnóstico!</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img class="img3" src="../assets/images/maça 1.png">
+                </div>
+            </div>
+
+        </div>
+
+    </section>
 
             <section className="rodape">
                 <div className="rodape-pt1">
