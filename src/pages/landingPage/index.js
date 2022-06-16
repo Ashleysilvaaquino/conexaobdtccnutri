@@ -22,6 +22,9 @@ import mapa from "../../assets/images/mapa.png";
 import maca from "../../assets/images/maça.png";
 import piramide from "../../assets/images/piramide.png";
 import balanca from "../../assets/images/balanca.png";
+import lista from "../../assets/images/lista.png";
+import nova from "../../assets/images/nova.png";
+import fundo from "../../assets/images/fundo.png";
 
 export default function index() {
   return (
@@ -34,12 +37,14 @@ export default function index() {
               <p>MEIRELLES</p>
             </div>
             <div className="bs-div">
-              <a href="pgadm.html">ÁREA ADMINISTRATIVA</a>
+              <a href="pagina-3">ÁREA ADMINISTRATIVA</a>
             </div>
           </div>
         </nav>
       </header>
       <section className="faixa-1">
+        <img className="f1-foto" src={nova} alt="" />
+
         <div className="f1-textos">
           <h1>O que é ser um nutricionista?</h1>
           <img src={nutricionista} alt="" />
@@ -52,25 +57,31 @@ export default function index() {
         </h2>
       </section>
       <section className="faixa-2">
-        <div className="f2-textos">
-          <h1>QUEM É A SHEILA MEIRELLES</h1>
+        <img className="f2-foto" src={fundo} alt="" />
+        <div className="f2-div">
+          <div className="f2-textos">
+            <h1>QUEM É A SHEILA MEIRELLES</h1>
+          </div>
+          <h2>
+            Sheila Meirelles é uma jovem com seus 23 anos de idade, formada <br />{" "}
+            em nutricionismo e pós-graduada na área. A Dr. Meirelles já <br />{" "}
+            trabalhou em diversas clínicas, possuindo vários clientes, porém,
+            agora <br /> está trabalhando de maneira autônoma, ajudando <br /> as
+            pessoas a atingirem seus objetivos de maneira saudável, <br /> sempre
+            realizando atendimentos individuais e especiais <br /> para cada
+            paciente. Confira ao longo do site todos os seus serviços, <br /> que
+            são prestados com muita dedicação e empenho.
+          </h2>
         </div>
-        <h2>
-          Sheila Meirelles é uma jovem com seus 23 anos de idade, formada <br />{" "}
-          em nutricionismo e pós-graduada na área. A Dr. Meirelles já <br />{" "}
-          trabalhou em diversas clínicas, possuindo vários clientes, porém,
-          agora <br /> está trabalhando de maneira autônoma, ajudando <br /> as
-          pessoas a atingirem seus objetivos de maneira saudável, <br /> sempre
-          realizando atendimentos individuais e especiais <br /> para cada
-          paciente. Confira ao longo do site todos os seus serviços, <br /> que
-          são prestados com muita dedicação e empenho.
-        </h2>
       </section>
       <section className="faixa-3">
-        <img src={objetivos} alt="" />
-        <div className="f3-fundo">
-          <div className="f3-textos">
-            <h1>Objetivos de Sheila em sua carreira:</h1>
+
+
+        <div className="f3-textos">
+          <div className="f3-fundo">          <img className="f3-fotona" src={objetivos} alt="" />
+
+            <h1 className="f3-h1">Objetivos de Sheila em sua carreira:</h1>
+
             <p>
               Um dos seus objetivos é crescer como pessoa, fazendo o que ama,
               que é ajudar seus <br /> pacientes criando cardápios adequados (
@@ -80,6 +91,7 @@ export default function index() {
             </p>
           </div>
         </div>
+              
       </section>
       <section className="faixa-5">
         <div className="f5-tt">

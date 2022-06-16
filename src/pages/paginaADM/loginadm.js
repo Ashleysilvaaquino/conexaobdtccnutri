@@ -35,10 +35,10 @@ export default function index(){
 
             <div className="botoes">
                 <div className="b1">
-                    <a  href="index.html">Voltar</a>
+                    <a  href="pagina-1">Voltar</a>
                 </div>
                 <div className="b2">
-                    <a href="menu.html"> Entrar </a>
+                    <a href="pagina-2"> Entrar </a>
                 </div>
             </div>
         </section>

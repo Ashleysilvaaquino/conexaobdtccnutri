@@ -135,7 +135,7 @@ export default function index(){
         <br/>
     <div className="comeback">
         
-        <a href=''>Voltar a pagina home</a>
+        <a href='./src/pages/landingPage/index.js'>Voltar a pagina home</a>
     </div>
 
 

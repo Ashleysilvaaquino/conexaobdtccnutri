@@ -5,13 +5,13 @@ import './index.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
-import Pagina1 from './pages/landingpage/index.js'
+import Pagina1 from './pages/landingPage/index.js'
 import Pagina2 from './pages/menu/menu.js'
-import Pagina3 from './pages/paginaadm/loginadm.js'
-import Pagina4 from './pages/paginacadastrar/cadastrar.js'
-import Pagina5 from './pages/paginaconsulta/consultarinformacoes.js'
-import Pagina6 from './pages/paginaconsulta/editar.js'
-import Pagina7 from './pages/paginaproximasconsultas/edicao.js'
+import Pagina3 from './pages/paginaADM/loginadm.js'
+import Pagina4 from './pages/paginaCadastrar/cadastrar.js'
+import Pagina5 from './pages/paginaConsulta/consultarinformacoes.js'
+import Pagina6 from './pages/paginaConsulta/editar.js'
+import Pagina7 from './pages/paginaProximasConsultas/edicao.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

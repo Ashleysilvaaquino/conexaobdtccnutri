@@ -23,7 +23,7 @@ export default  function index(){
     <section className="cartoes">
         
         <div className="parte-de-cima">
-            <p>Mateus Fernandes</p>
+            <p>Mateus Andrade</p>
             <p>Consulta dia 13/05</p>
         </div>
         <div className="parte-de-baixo">
@@ -132,7 +132,7 @@ export default  function index(){
 </section>
     <div className="calendario">
         <img src={calendario} alt=""/>
-        <a href="">Voltar a pagina home</a>
+        <a href="./src/pages/landingPage/index.js">Voltar a pagina home</a>
     </div>
        </main>
     )
