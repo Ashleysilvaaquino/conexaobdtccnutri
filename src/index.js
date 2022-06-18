@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
+import 'react-confirm-alert/src/react-confirm-alert.css'
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -16,6 +19,7 @@ import Pagina7 from './pages/paginaProximasConsultas/edicao.js'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <ToastContainer/>
     <BrowserRouter>
       <Routes>
         <Route path = '/pagina-1' element ={<Pagina1/>}/>

@@ -3,15 +3,33 @@ import './menu.scss'
 
 import barras from '../../assets/images/tres_barrinha.png'
 import gerente from '../../assets/images/gerente.png'
+import { useEffect } from 'react';
 
 export default function index(){
+    const [ usuario, setUsuario] = useState('-');
+
+    const navigate = useNavigate();
+    
+    useEffect(() => {
+      
+       if(!storage('usuario-logado')) {
+           navigate('/');
+
+       }
+       else{
+           const usuarioLogado =storage('usuario-logado')
+           setUsuario(usuarioLogado.nome);
+       }
+
+    }, [])
+
     return(
         <main className="pagina-menu">
         <section>
             <header className="cabecalho">
                 <div className="c-direita">
                     <img src={barras} alt=""/>
-                    <h1>Área do Administrador: Menu </h1>
+                    <h1>Área do Administrador: Menu</h1>
                 </div>
                 <div className="c-esquerda">
                     <h1>Gerente</h1>
@@ -28,17 +46,11 @@ export default function index(){
                         <a className="botao" href="pgadm.html">Voltar</a>
                 </div>
 
-                <div className="consultas">
-                    <h1>CONSULTAS DE HOJE:</h1>
-                    <p>--- Antonio Nunes / 9:30</p>
-
-                     <p>--- Jayson Tatum / 11:00</p>   
-                        
-                     <p>--- Roberto Carlos / 14:45</p> 
-                        
-                     <p>--- Michael SIlva / 15:20</p> 
-                        
-                     <p>--- Robson lima / 16:00</p>  
+                <div>
+                     <p>Seja Bem Vindo(a), {usuario}!😊</p>
+                </div>
+                <div className='usuario'>
+                    <span>{usuario[0].toUpperCase()}</span>
                 </div>
             </div>
         </section>
